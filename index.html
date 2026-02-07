@@ -3,59 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Privacidad - SommChall</title>
+    <meta name="description" content="Política de Privacidad y Términos de Servicio de la aplicación SommChall.">
+    <title>Legal - SommChall</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #333; }
-        h1 { color: #2c3e50; }
-        h2 { color: #2980b9; border-bottom: 1px solid #eee; }
+        :root {
+            --primary: #2980b9;
+            --dark: #2c3e50;
+            --text: #333;
+            --bg: #f8f9fa;
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            line-height: 1.6; 
+            padding: 20px; 
+            max-width: 800px; 
+            margin: auto; 
+            color: var(--text);
+            background-color: var(--bg);
+        }
+        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { color: var(--dark); border-bottom: 2px solid var(--primary); padding-bottom: 10px; }
+        h2 { color: var(--primary); margin-top: 30px; border-bottom: 1px solid #eee; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .btn { 
+            display: inline-block; 
+            background-color: var(--primary); 
+            color: white !px !important; 
+            padding: 12px 
+
+24px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover { background-color: #21618c; }
+        hr { border: 0; height: 1px; background: #eee; margin: 40px 0; }
+        .external-link { color: var(--primary); text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>Política de Privacidad de SommChall</h1>
-    <p><strong>Última actualización:</strong> 7 de febrero de 2026</p>
-    
-    <p>En <strong>SommChall</strong>, nos tomamos muy en serio la privacidad. Esta política describe cómo manejamos la información en nuestra aplicación móvil.</p>
+    <div class="container">
+        <h1>Política de Privacidad de SommChall</h1>
+        <p><strong>Última actualización:</strong> 7 de febrero de 2026</p>
+        
+        <p>En <strong>SommChall</strong>, valoramos su privacidad. Esta política explica cómo se gestiona la información en nuestra aplicación móvil.</p>
 
-    <h2>1. Recopilación de Datos</h2>
-    <p>Nuestra aplicación no recopila directamente datos personales identificables (como nombres o correos electrónicos) en servidores propios. La aplicación funciona de forma local.</p>
+        <h2>1. Recopilación de Datos</h2>
+        <p>Nuestra aplicación está diseñada para funcionar de forma <strong>local</strong>. No recopilamos ni almacenamos datos personales identificables (como nombres, correos o ubicación) en servidores propios.</p>
 
-    <h2>2. Pagos y Suscripciones</h2>
-    <p>Las transacciones se realizan exclusivamente a través de <strong>Google Play Billing</strong>. Nosotros no almacenamos ni tenemos acceso a sus datos bancarios o tarjetas de crédito. Google nos proporciona un token de compra anónimo para validar su acceso premium.</p>
+        <h2>2. Servicios de Terceros (Obligatorio)</h2>
+        <p>Para ofrecer ciertas funcionalidades, utilizamos servicios de terceros que pueden recopilar información utilizada para identificarlo. Puede consultar sus políticas aquí:</p>
+        <ul>
+            <li><a class="external-link" href="https://www.google.com" target="_blank" rel="noopener">Servicios de Google Play</a></li>
+        </ul>
 
-    <h2>3. Almacenamiento Local</h2>
-    <p>Para que la suscripción funcione sin conexión, guardamos un indicador de estado "Premium" de forma encriptada en su dispositivo.</p>
-    
-    <h2>4. Eliminación de Datos</h2>
-    <p>SommChall no almacena datos de usuario en servidores externos ni requiere la creación de una cuenta personal. Por lo tanto:</p>
-    <ul>
-        <li><strong>Datos Locales:</strong> Para eliminar todos los datos almacenados localmente (como su estado premium o preferencias), simplemente desinstale la aplicación de su dispositivo.</li>
-        <li><strong>Suscripciones:</strong> La gestión y cancelación de suscripciones debe realizarse directamente a través de su cuenta de Google Play Store, ya que SommChall no tiene acceso a sus métodos de pago.</li>
-        <li><strong>Solicitudes:</strong> Si desea confirmar que no existen datos suyos en nuestros sistemas, puede escribirnos a <strong>nuestro correo de contacto</strong></li>
-    </ul>
+        <h2>3. Pagos y Suscripciones</h2>
+        <p>Las transacciones se procesan mediante <strong>Google Play Billing</strong>. SommChall no tiene acceso a sus datos de tarjeta de crédito o información bancaria. Google nos facilita un token anónimo para confirmar su estado de suscripción.</p>
 
-    <h2>5. Contacto</h2>
-    <p>Si tiene dudas o necesita soporte con su suscripción, puede contactarnos aquí:</p>
-<a href="mailto:keko.gl@gmail.com" 
-   style="display: inline-block; background-color: #2980b9; color: white; padding: 12px 20px; text-decoration: none; border-radius: 6px; font-weight: bold;">
-   Contactar por Email
-</a>
-    <hr>
-    <h1>Términos de Servicio de SommChall</h1>
-    
-    <h2>1. Uso de la Aplicación</h2>
-    <p>Al descargar y usar SommChall, usted acepta estos términos. La aplicación es una herramienta de consulta y entretenimiento sobre viticultura; el usuario es responsable del uso que haga de la información proporcionada.</p>
+        <h2>4. Almacenamiento y Seguridad</h2>
+        <p>Los datos de su progreso y estado "Premium" se guardan de forma encriptada localmente en su dispositivo. Al no existir servidores externos de usuario, la seguridad de estos datos depende de la seguridad de su propio terminal.</p>
+        
+        <h2>5. Sus derechos y Eliminación</h2>
+        <ul>
+            <li><strong>Eliminación de datos:</strong> Al desinstalar la app, se borran todos los datos locales.</li>
+            <li><strong>Gestión de suscripción:</strong> Debe gestionarse desde la cuenta de Google Play Store.</li>
+            <li><strong>Contacto:</strong> Para cualquier duda sobre privacidad, puede escribirnos directamente.</li>
+        </ul>
 
-    <h2>2. Suscripciones y Pagos</h2>
-    <ul>
-        <li><strong>Procesamiento:</strong> Todos los pagos se gestionan de forma segura a través de Google Play Billing.</li>
-        <li><strong>Renovación:</strong> Las suscripciones se renuevan automáticamente a menos que se cancelen en la configuración de su cuenta de Google Play al menos 24 horas antes del fin del periodo actual.</li>
-        <li><strong>Cancelación:</strong> Puede cancelar su suscripción en cualquier momento desde la Play Store. Seguirá teniendo acceso premium hasta que finalice el periodo pagado.</li>
-    </ul>
+        <a href="mailto:keko.gl@gmail.com" class="btn" aria-label="Enviar un correo electrónico de soporte">Contactar por Email</a>
 
-    <h2>3. Reembolsos</h2>
-    <p>Las políticas de reembolso son gestionadas exclusivamente por Google Play. Como desarrolladores, no tenemos acceso directo a sus transacciones financieras para realizar reembolsos manuales.</p>
+        <hr>
 
-    <h2>4. Limitación de Responsabilidad</h2>
-    <p>SommChall se proporciona "tal cual" sin garantías de ningún tipo. No nos hacemos responsables de pérdidas de datos locales o interrupciones del servicio derivadas de problemas técnicos en la plataforma de Google.</p>
+        <h1>Términos de Servicio</h1>
+        
+        <h2>1. Uso de la Aplicación</h2>
+        <p>SommChall es una herramienta educativa sobre viticultura. El contenido se ofrece "tal cual" y para fines de entretenimiento o consulta general.</p>
+
+        <h2>2. Propiedad Intelectual</h2>
+        <p>Todo el contenido, diseño y código de SommChall son propiedad exclusiva del desarrollador, a excepción de los recursos de código abierto utilizados.</p>
+
+        <h2>3. Reembolsos</h2>
+        <p>Siguiendo las normativas de la plataforma, todos los reembolsos están sujetos a la política de <strong>Google Play Store</strong>. El desarrollador no puede realizar reembolsos directos al no poseer sus datos financieros.</p>
+
+        <h2>4. Modificaciones</h2>
+        <p>Nos reservamos el derecho de actualizar estos términos para reflejar cambios en la ley o en las funciones de la app. El uso continuado de la app implica la aceptación de los nuevos términos.</p>
+    </div>
 </body>
 </html>
